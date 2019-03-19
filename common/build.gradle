@@ -1,0 +1,12 @@
+apply plugin: 'idea'
+apply plugin: "maven"
+
+group = 'com.kpc.common'
+version = '1.0.0-SNAPSHOT'
+
+dependencies {
+    compile('com.google.guava:guava:26.0-jre',
+            'org.apache.kafka:kafka-clients:2.1.0')
+
+    testCompile('junit:junit:4.12')
+}
