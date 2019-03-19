@@ -1,0 +1,10 @@
+.idea/
+.gradle/
+*.iml
+build/
+kafka-cluster/**/kafka-logs/
+kafka-cluster/**/kafka_*/
+zookeeper/**/zookeeper-*/
+zookeeper/**/zookeeper.out
+zookeeper/**/datadir/version-2/
+zookeeper/**/datadir/zookeeper_server.pid
