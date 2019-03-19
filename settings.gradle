@@ -1,0 +1,4 @@
+rootProject.name = 'kafka-producer-consumer'
+include 'common'
+include 'consumer'
+include 'producer'
