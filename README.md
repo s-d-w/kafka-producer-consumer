@@ -142,7 +142,7 @@ Open up a two terminals (or two tabs) and with one cd into the producer director
 
 To create messages, open up another terminal (or tab) and post to the record endpoint on the producer:
 
-`curl -v POST localhost:8081/api/record -H "Content-Type: application/json" -d '{"body": "foo"}'`
+`curl -v -X POST localhost:8081/api/record -H "Content-Type: application/json" -d '{"body": "foo"}'`
 
 You should see logging output in both producer and consumer terminals:
 
